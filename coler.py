@@ -3,7 +3,7 @@
 from PIL import Image
 
 # Define variable
-image = Image.open("image/bloom.jpg")
+image = Image.open("image/bloom.jpg") #free item
 r, g, b = image.split()
 change_image0 = Image.merge("RGB", (r, b, g)) #convert rgb_to_rbg
 change_image1 = Image.merge("RGB", (g, b, r)) #convert rgb_to_gbr
