@@ -1,4 +1,5 @@
-# change 7 kind of color 
+# change 7 kind of color
+# test comment
 
 from PIL import Image
 
